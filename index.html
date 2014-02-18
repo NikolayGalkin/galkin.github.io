@@ -20,7 +20,9 @@
             text-align: justify;
         }
         .teaser {
-            padding: 20px;
+            padding-top: 20px;
+        }
+        .font24 {
             font-size: 24px;
         }
         .code {
@@ -29,6 +31,9 @@
         .phone {
             color: #2F4F4F;
             font-weight: bold;
+        }
+        table tbody tr td.valign-middle {
+            vertical-align: middle;
         }
     </style>
 </head>
@@ -40,10 +45,11 @@
             <img src="images/EFC-logo.jpg">
         </div>
         <div class="col-md-5">
-            <p class="teaser">Реклама на чековой ленте в супермаркетах Украины</p>
+            <p class="teaser font24">Реклама на чековой ленте в супермаркетах Украины</p>
         </div>
         <div class="col-md-3">
-            <p class="teaser"><i class="glyphicon glyphicon-phone"></i><span class="code">(050)</span> <span class="phone">667 37 26</span></p>
+            <div class="teaser font24"><i class="glyphicon glyphicon-phone"></i><span class="code">(050)</span> <span class="phone">667 37 26</span></div>
+            <div class="font24"><i class="glyphicon glyphicon-phone"></i><span class="code">(066)</span> <span class="phone">395 27 70</span></div>
         </div>
     </div>
     <div class="row">
@@ -108,23 +114,40 @@
         <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title text-center text-uppercase">Супермаркеты с проходимостью более 1 000 человек в сутки:</h3>
+                    <h3 class="panel-title text-center text-uppercase">Стоимость размещения</h3>
                 </div>
                 <div class="panel-body">
-                    <ul class="list-group col-md-6">
-                        <li class="list-group-item">Супермаркет "Привозъ", Бабушкина 34 (Бывший Славел)</li>
-                        <li class="list-group-item">Супермаркет "Привозъ", Лазо 114</li>
-                        <li class="list-group-item">Супермаркет "Привозъ", Шилова 29</li>
-                        <li class="list-group-item">Супермаркет "Привозъ", Угданская 18 пом.1</li>
-                        <li class="list-group-item">Супермаркет "Привозъ", Красной Звезды 24а</li>
-                    </ul>
-                    <ul class="list-group col-md-6">
-                        <li class="list-group-item">Супермаркет "Привозъ", Пр. Советов 5</li>
-                        <li class="list-group-item">Супермаркет "Привозъ", П-Осипенко 22 (Гастроном Холл)</li>
-                        <li class="list-group-item">Супермаркет "Привозъ", Ангарская 26, пом. 2</li>
-                        <li class="list-group-item">Супермаркет "Привозъ", Бутина 107</li>
-                        <li class="list-group-item">Супермаркет "Привозъ", Недорезова 23, пом. 1</li>
-                    </ul>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th class="text-center" colspan="2">Пакет</th>
+                            <th class="text-center">Пробный</th>
+                            <th class="text-center">Стандарт</th>
+                            <th class="text-center">VIP</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">Количество чеков (лента 57)</td>
+                                <td>300 000 шт</td>
+                                <td>1 500 000 шт</td>
+                                <td>10 000 000 шт</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2" class="valign-middle">Размеры и цена одного чека</td>
+                                <td>5.7 x 5 см</td>
+                                <td>0,035 грн</td>
+                                <td>0,033 грн</td>
+                                <td>0,029 грн</td>
+                            </tr>
+                            <tr>
+                                <td>5.7 x 7 см</td>
+                                <td>0,047 грн</td>
+                                <td>0,045 грн</td>
+                                <td>0,037 грн</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
